@@ -16,7 +16,7 @@ document.getElementById('html-div').innerHTML = '<p>Hello</p>'
 
 document.querySelectorAll('.wraper').forEach( (item) => {
     let link = document.createElement('a');
-    link.textContent = 'Top 10 TW SHOW';
+    link.textContent = 'Top 10 TV SHOW';
     link.setAttribute('target', '_blank');
 
     item.appendChild(link);
